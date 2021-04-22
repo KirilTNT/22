@@ -1,0 +1,21 @@
+.main .line {
+    clear: both;
+}
+.main .line div {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 1px;
+    border: 1px solid  floralwhite;
+    border-radius: 4px;
+    background-color: coral;
+    transition: background-color .5s;
+}
+.main .line div.s {
+    background-color: blue;
+    transition: background-color .5s;
+}
+.main .line div.f {
+    background-color: wheat;
+    transition: background-color 2s;
+}
